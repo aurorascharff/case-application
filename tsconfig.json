@@ -1,0 +1,41 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "resolveJsonModule": true,
+    "target": "es2015",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "types": [
+      "estree",
+      "events",
+      "glob",
+      "jasmine",
+      "jasminewd2",
+      "minimatch",
+      "node",
+      "q",
+      "selenium-webdriver",
+      "source-list-map",
+      "webpack-sources"
+    ]
+  },
+  "angularCompilerOptions": {
+    "enableIvy": false,
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true
+  }
+}

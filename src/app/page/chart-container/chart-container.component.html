@@ -1,0 +1,14 @@
+<div id= "filter">
+  <mat-form-field>
+    <mat-label>Maximum årsresultat bedrift</mat-label>
+    <input matInput #input>
+  </mat-form-field>
+  <div id = "button">
+    <button mat-stroked-button (click) = filter(input.value)>
+      Filtrer
+    </button>
+  </div>
+</div>
+
+<app-chart [chartInput] = chartInput>
+</app-chart>
